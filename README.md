@@ -6,13 +6,10 @@
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-  - [Usage](#usage)
 - [Input Format](#input-format)
 - [Output Format](#output-format)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Introduction
 
