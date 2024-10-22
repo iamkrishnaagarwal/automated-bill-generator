@@ -74,3 +74,40 @@ Extracting text, images, or metadata from PDF files for analysis or reporting.
 
    ```bash
    git clone https://github.com/iamkrishnaagarwal/automated-bill-generator.git
+
+### Input Format
+The input Excel file should be structured with the following columns:
+
+Invoice Number	Customer Name	Customer Address	Item Description	Quantity	Rate	GST Percentage	Total Amount
+001	John Doe	123 Main St.	Product A	10	100	18%	1180
+002	Jane Smith	456 Elm St.	Product B	5	200	18%	1180
+Make sure the data is clean and formatted correctly for accurate invoice generation.
+
+### Output Format
+The output will be a merged PDF file containing all generated GST invoices, structured as follows:
+
+Each invoice will include:
+Invoice Number
+Date of Issue
+Seller's Details (Name, Address, GST Number)
+Buyer's Details (Name, Address)
+Itemized list of products/services
+Total Amount with GST breakdown
+Payment Terms
+Dependencies
+This project requires the following Python libraries:
+
+XlsxWriter: For creating new Excel files with formatting and charts.
+openpyxl: For reading and modifying existing Excel files.
+PyExcelerate: For fast writing of large Excel files.
+PyPDF2: For manipulating PDF files, including merging invoices.
+You can install these dependencies using pip, as mentioned in the Installation section.
+
+### Contributing
+Contributions are welcome! If you have suggestions for improvements or want to add features, please fork the repository and create a pull request.
+
+Fork the repository.
+Create your feature branch (git checkout -b feature/AmazingFeature).
+Commit your changes (git commit -m 'Add some AmazingFeature').
+Push to the branch (git push origin feature/AmazingFeature).
+Open a pull request.
